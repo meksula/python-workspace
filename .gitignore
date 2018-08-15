@@ -6,6 +6,10 @@ __pycache__/
 /Basic
 Basic/
 Basic
+.idea
+/idea
+todo_DB.txt
+*.txt
 
 # C extensions
 *.so
