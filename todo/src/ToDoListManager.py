@@ -1,4 +1,3 @@
-
 from src.authorization import Authorization
 from src.features import ProfileCreate
 from src.workflow import Workflow
@@ -36,6 +35,10 @@ class ToDoListManager:
 
         elif self.command == "account" or self.command == "a":
             print("Change account:")
+
+        elif self.command == "exit" or self.command == "quit":
+            print("See you soon.")
+            exit()
 
     def save(self, profile):
         print(profile)

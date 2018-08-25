@@ -1,16 +1,13 @@
 from src.ToDoListManager import ToDoListManager
-
-# Karol Meksuła
-# 14-08-2018
+from sty import fg
 
 manager = ToDoListManager()
-
 runnable = True
 
 
 def main():
-    print("Welcome to ToDo list!")
-    print("[If you want to see help, type `help`]")
+    print(fg.blue + "Welcome to ToDo list!" + fg.rs)
+    print(fg.blue + "[If you want to see help, type `help`]" + fg.rs)
     while runnable:
         manager.flow()
 
