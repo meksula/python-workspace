@@ -1,3 +1,7 @@
+# how to open file
+file = open('lists.py')
+print(file.read())
+
 text = open('bools.py')
 
 all_lines = text.readlines()   # czyta plik tekstowy do listy wierszy
