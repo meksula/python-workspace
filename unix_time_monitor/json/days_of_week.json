@@ -1,0 +1,30 @@
+{
+	"mon": {
+		"eng": "Monday",
+		"pl": "Poniedziałek"
+	},
+	"tue": {
+		"eng": "Thuesday",
+		"pl": "Wtorek"
+	},
+	"wed": {
+		"eng": "Wednesday",
+		"pl": "Środa"
+	},
+	"thu": {
+		"eng": "Thursday",
+		"pl": "Czwartek"
+	},
+	"fri": {
+		"eng": "Friday",
+		"pl": "Piątek"
+	},
+	"sat": {
+		"eng": "Saturday",
+		"pl": "Sobota"
+	},
+	"sun": {
+		"eng": "Sunday",
+		"pl": "Niedziela"
+	}
+}

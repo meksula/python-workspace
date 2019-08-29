@@ -1,0 +1,16 @@
+{
+	"report_parts": {
+		"eng": [
+				"OS booted in month ",
+				", of day ",
+				" (",
+				") time o'clock: "
+			],
+		"pl": [
+				"System uruchomiony w miesiącu ",
+				", dnia ",
+				" (",
+				") o godzinie: "
+			]
+		}
+}
