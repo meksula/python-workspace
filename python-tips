@@ -1,6 +1,21 @@
-# clean terminal output
+Jak wyczyścić output konsoli?
 from IPython.display import clear_output
 
 Możemy 'wypakować' tupla do zmiennych:
 point = (23, 41)
 x, y = point
+
+Możemy sprawdzić typ obiektu za pomocą funkcji:
+type(object)
+
+Możemy wylistować sobie atrybuty instancji danego objektu:
+dir(object)
+
+
+StringIO - możemy użyć tego modułu do operowania na zwykłym stringu jak na pliku
+
+Możemy usunąć zmienną:
+del <variable_name>
+
+Przykład zainicjalizowanego słownika:
+my_map = {key: val**2 for key, val in zip(['a', 'b', 'c'], range(3))}
